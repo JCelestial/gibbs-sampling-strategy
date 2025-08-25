@@ -7,7 +7,12 @@ The study is currently in progress and I will update it along the way.
 This is a [marimo](https://docs.marimo.io/) notebook, so you won't see any `.ipynb` files as marimo stores these as pure python. Click on the link if you want to know more about marimo.
 
 ### Quickstart
-Once you clone the repo, activate the venv and run
+Clone the repo and create a virtual environment
+```python
+python -m venv venv
+```
+
+Activate the venv (command is OS dependent) and run
 ```python
 pip install marimo
 ```
